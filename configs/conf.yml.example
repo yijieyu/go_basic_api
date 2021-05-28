@@ -1,0 +1,212 @@
+go_version: go_version
+version: version_number
+build_date: build_date
+service:
+  appname: app_api
+  host: 172.17.180.222
+  public_ip: 39.102.47.160
+  environment: testing
+  address: address
+http:
+  host: 127.0.0.1
+  port: 8089
+  mode: debug
+
+log:
+  filename: logs/app_api.log
+  level: debug
+  format: json
+  stack: true
+
+order_log:
+  filename: logs/order.log
+  rotate_interval: 1h
+
+sql_log:
+  filename: /tmp/logs/houbeixiang/sql/sql.log
+  level: debug
+  rotate_interval: 24h
+  format: json
+  exec_time: 0s
+
+db:
+  master:
+    - data_source_name: root:root@tcp(127.0.0.1:3306)/driver_platform?parseTime=true&charset=utf8&loc=Local
+      max_open_conns: 2
+      max_idle_conns: 2
+  slave:
+    - data_source_name: root:root@tcp(127.0.0.1:3306)/driver_platform?parseTime=true&charset=utf8&loc=Local
+      max_open_conns: 2
+      max_idle_conns: 2
+driver_service_db:
+  master:
+    - data_source_name: username:password@tcp(127.0.0.1:3306)/dbname?parseTime=true&charset=utf8&loc=Local
+      max_open_conns: 2
+      max_idle_conns: 2
+  slave:
+    - data_source_name: username:password@tcp(127.0.0.1:3306)/dbname?parseTime=true&charset=utf8&loc=Local
+      max_open_conns: 2
+      max_idle_conns: 2
+
+redis:
+  master:
+    - host: 127.0.0.1
+      port: 6379
+      password: auth
+      db: 0
+      idle_timeout: 1
+      max_open_conns: 1000
+      max_idle_conns: 200
+  slave:
+    - host: 127.0.0.1
+      port: 6379
+      password: auth
+      db: 0
+      idle_timeout: 1
+      max_open_conns: 1000
+      max_idle_conns: 200
+
+es:
+  user: user
+  password: password
+  url: url
+  max_open_conns: 1
+  max_idle_conns: 1
+  prefix: "dev"
+
+conf_cache_prefix: /guobindui.cn/houbeixiang/app_api/configuration/
+etcd:
+  - http://127.0.0.1:2379
+
+oss:
+  access_key_id: access_key_id
+  access_key_secret: access_key_secret
+  endpoint: endpoint
+  bucket_name: bucket_name
+  res_url: http://bucket_name.endpoint
+  tmp: tmp
+
+jwt:
+  secret_key: secret_key
+
+report_url: http://report_url
+task:
+  key: 3fcb8e8416fab70423484455
+  vector: 76540188
+
+sms:
+  url: http://sms_url
+  sign: "【厚贝箱】"
+  notice:
+    account: account
+    password: account
+  market:
+    account: account
+    password: password
+
+driver_platform_db:
+  master:
+    - data_source_name: root:root@tcp(127.0.0.1:3306)/driver_platform?parseTime=true&charset=utf8&loc=Local
+      max_open_conns: 2
+      max_idle_conns: 2
+  slave:
+    - data_source_name: root:root@tcp(127.0.0.1:3306)/driver_platform?parseTime=true&charset=utf8&loc=Local
+      max_open_conns: 2
+      max_idle_conns: 2
+
+oneclick_login:
+  host: https://verify5.market.alicloudapi.com
+  path: /api/v1/mobile/info
+  uverify:
+    appkey: appkey
+    appsecret: appsecret
+    appcode: appcode
+  umeng:
+    appkey_android: appkey_android
+    appkey_ios: appkey_ios
+    message_secret: message_secret
+    app_master_secret: app_master_secret
+
+oauth:
+  wechat:
+    app_id: wechat_app_id
+    secret: wechat_secret
+
+91taojin:
+  url: https://api.91taojin.com.cn
+  timeout: 10s
+  android:
+    mtid: mtid
+    app_key: app_key
+  ios:
+    mtid: mtid
+    app_key: app_key
+
+appcpx:
+  url: http://xyzqdsp.niaogebiji.com
+  timeout: 10s
+  android:
+    mtid: mtid
+    app_key: app_key
+  ios:
+    mtid: mtid
+    app_key: app_key
+
+duomob:
+  url: https://api.ads66.com
+  timeout: 10s
+  android:
+    app_id: app_id
+    app_secret: app_secret
+  ios:
+    app_id: app_id
+    app_secret: app_secret
+
+hemu:
+  url: http://xqq-open.9tech.cn
+  timeout: 10s
+  app_key: app_key
+  app_secret: app_secret
+
+diandianke:
+  key: key # 给点点客使用的私钥key
+  admin_url: https://www.example.com # 后台请求地址
+
+tupu:
+  secret: secret
+  private_key_path: private_key_path
+
+third_ad_switch:
+  banner: true # banner广告开关
+  open_screen: true # 开屏广告开关
+tuanyou:
+  app_key: app_key
+  app_secret: app_secret
+  platform_type: platform_type
+
+app_notice:
+  url: http://39.102.47.160:8098
+
+bomai:
+  cpid: xxx
+  key: xxx
+
+ip_db: configs/ip.db
+
+apple_login:
+  keyid: keyid
+  teamid: teamid
+  client_id: client_id
+  private_key_path: configs/apple_client_secret.pem
+
+# 敏感词检测
+sensitive:
+  diabled: false # 默认启用
+  dir: ./configs/data/sensitive
+  patt: .*.txt$
+
+wx_api: http://dev.wechat.xxx.cn
+
+share:
+  domain: "http://dev.share.guobindui.cn"
+  prefix: "driver_post/#/detail"

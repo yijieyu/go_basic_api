@@ -1,0 +1,62 @@
+go_version: 1.13
+version: 1.0
+build_date: build_date
+service:
+  appname: app_api
+  host: 0.0.0.0
+  public_ip: 0.0.0.0
+  environment: testing
+  address: "http://0.0.0.0:8301"
+http:
+  host: 0.0.0.0
+  port: 8301
+  mode: debug
+
+log:
+  filename: /tmp/logs/houbeixiang/app_api.log
+  level: debug
+  format: json
+  stack: true
+
+db:
+  master:
+    - data_source_name: root:root@tcp(127.0.0.1:3306)/weimiao?parseTime=true&charset=utf8&loc=Local
+      max_open_conns: 2
+      max_idle_conns: 2
+  slave:
+    - data_source_name: root:root@tcp(127.0.0.1:3306)/weimiao?parseTime=true&charset=utf8&loc=Local
+      max_open_conns: 2
+      max_idle_conns: 2
+
+etcd:
+  - http://127.0.0.1:2379
+
+jwt:
+  secret_key: kpMwcJZK_dev
+
+redis:
+  master:
+    - host: 127.0.0.1
+      port: 6379
+      password:
+      db: 9
+      idle_timeout: 2000
+      max_idle_conns: 200
+      max_open_conns: 400
+      initial_open_conns: 800
+  slave:
+    - host: 127.0.0.1
+      port: 6379
+      password:
+      db: 9
+      idle_timeout: 2000
+      max_idle_conns: 200
+      max_open_conns: 400
+      initial_open_conns: 800
+
+report_url: http://127.0.0.1:8081/
+
+third_ad_switch:
+  banner: false # banner广告开关
+  open_screen: true # 开屏广告开关
+

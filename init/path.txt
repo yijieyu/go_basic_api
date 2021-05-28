@@ -1,0 +1,4 @@
+sysytemd配置文件所在路径:
+/usr/local/lib/systemd/system
+
+
