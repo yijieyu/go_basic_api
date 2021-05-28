@@ -8,10 +8,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/thinkeridea/go-extend/exnet/exhttp/expprof"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/app"
-	v1 "gitlab.weimiaocaishang.com/weimiao/base_api/internal/router/v1"
-	api "gitlab.weimiaocaishang.com/weimiao/base_api/internal/server"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/middleware"
+	"github.com/yijieyu/go_basic_api/app"
+	v1 "github.com/yijieyu/go_basic_api/internal/router/v1"
+	api "github.com/yijieyu/go_basic_api/internal/server"
+	"github.com/yijieyu/go_basic_api/pkg/middleware"
 )
 
 type LoadFunc func(app *app.App, g *gin.RouterGroup, mw ...gin.HandlerFunc) error

@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/crypto"
+	"github.com/yijieyu/go_basic_api/pkg/crypto"
 )
 
 type des3AndBase64 struct {

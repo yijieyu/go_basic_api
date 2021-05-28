@@ -1,8 +1,8 @@
 package service
 
 import (
-	"gitlab.weimiaocaishang.com/weimiao/base_api/internal/model/weimiao"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/internal/storage/mysql"
+	"github.com/yijieyu/go_basic_api/internal/model/weimiao"
+	"github.com/yijieyu/go_basic_api/internal/storage/mysql"
 )
 
 type InfoflowMediaService struct {

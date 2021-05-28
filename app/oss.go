@@ -1,7 +1,7 @@
 package app
 
 import (
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/provider/oss"
+	"github.com/yijieyu/go_basic_api/pkg/provider/oss"
 )
 
 type Oss struct {

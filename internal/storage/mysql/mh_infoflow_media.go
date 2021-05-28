@@ -3,7 +3,7 @@ package mysql
 import (
 	"errors"
 
-	"gitlab.weimiaocaishang.com/weimiao/base_api/internal/model/weimiao"
+	"github.com/yijieyu/go_basic_api/internal/model/weimiao"
 	"gorm.io/gorm"
 )
 

@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/garyburd/redigo/redis"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/configuration"
+	"github.com/yijieyu/go_basic_api/pkg/configuration"
 )
 
 type Client struct {

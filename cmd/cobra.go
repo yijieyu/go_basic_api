@@ -6,15 +6,15 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/cmd/api_server"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/helper"
+	"github.com/yijieyu/go_basic_api/cmd/api_server"
+	"github.com/yijieyu/go_basic_api/pkg/helper"
 )
 
 var rootCmd = &cobra.Command{
-	Use:          "gitlab.weimiaocaishang.com/weimiao/base_api",
-	Short:        "gitlab.weimiaocaishang.com/weimiao/base_api",
+	Use:          "github.com/yijieyu/go_basic_api",
+	Short:        "github.com/yijieyu/go_basic_api",
 	SilenceUsage: true,
-	Long:         `gitlab.weimiaocaishang.com/weimiao/base_api`,
+	Long:         `github.com/yijieyu/go_basic_api`,
 	Args: func(cmd *cobra.Command, args []string) error {
 		if len(args) < 1 {
 			tip()
@@ -29,7 +29,7 @@ var rootCmd = &cobra.Command{
 }
 
 func tip() {
-	usageStr := `欢迎使用 ` + helper.Green(`gitlab.weimiaocaishang.com/weimiao/base_api `) + ` 可以使用 ` + helper.Red(`-h`) + ` 查看命令`
+	usageStr := `欢迎使用 ` + helper.Green(`github.com/yijieyu/go_basic_api `) + ` 可以使用 ` + helper.Red(`-h`) + ` 查看命令`
 	fmt.Printf("%s\n", usageStr)
 }
 

@@ -1,9 +1,9 @@
 package app
 
 import (
-	"gitlab.weimiaocaishang.com/weimiao/base_api/internal/storage/elasticsearch"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/internal/storage/mysql"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/internal/storage/redis"
+	"github.com/yijieyu/go_basic_api/internal/storage/elasticsearch"
+	"github.com/yijieyu/go_basic_api/internal/storage/mysql"
+	"github.com/yijieyu/go_basic_api/internal/storage/redis"
 )
 
 type Storage struct {

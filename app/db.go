@@ -3,9 +3,9 @@ package app
 import (
 	"github.com/coreos/etcd/clientv3"
 	"github.com/thinkeridea/go-extend/helper"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/db/elasticsearch"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/db/mysql"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/db/redis"
+	"github.com/yijieyu/go_basic_api/pkg/db/elasticsearch"
+	"github.com/yijieyu/go_basic_api/pkg/db/mysql"
+	"github.com/yijieyu/go_basic_api/pkg/db/redis"
 )
 
 type DB struct {

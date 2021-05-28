@@ -7,11 +7,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"github.com/sirupsen/logrus"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/internal/model"
-	api "gitlab.weimiaocaishang.com/weimiao/base_api/internal/server"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/internal/service"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/configuration"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/errno"
+	"github.com/yijieyu/go_basic_api/internal/model"
+	api "github.com/yijieyu/go_basic_api/internal/server"
+	"github.com/yijieyu/go_basic_api/internal/service"
+	"github.com/yijieyu/go_basic_api/pkg/configuration"
+	"github.com/yijieyu/go_basic_api/pkg/errno"
 )
 
 type Ad struct {

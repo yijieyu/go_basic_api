@@ -2,8 +2,8 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/app"
-	v1 "gitlab.weimiaocaishang.com/weimiao/base_api/internal/server/ad"
+	"github.com/yijieyu/go_basic_api/app"
+	v1 "github.com/yijieyu/go_basic_api/internal/server/ad"
 )
 
 func init() {

@@ -8,7 +8,7 @@ import (
 	"time"
 
 	elastic "github.com/olivere/elastic/v7"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/configuration"
+	"github.com/yijieyu/go_basic_api/pkg/configuration"
 )
 
 type Client struct {

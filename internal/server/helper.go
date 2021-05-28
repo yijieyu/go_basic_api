@@ -7,9 +7,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/thinkeridea/go-extend/exnet"
 
-	"gitlab.weimiaocaishang.com/weimiao/base_api/internal/apperr"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/constant"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/errno"
+	"github.com/yijieyu/go_basic_api/internal/apperr"
+	"github.com/yijieyu/go_basic_api/pkg/constant"
+	"github.com/yijieyu/go_basic_api/pkg/errno"
 )
 
 func init() {

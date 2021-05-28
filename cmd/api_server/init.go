@@ -4,10 +4,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/cobra"
 	"github.com/thinkeridea/go-extend/helper"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/app"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/internal/router"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/services/http"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/signals"
+	"github.com/yijieyu/go_basic_api/app"
+	"github.com/yijieyu/go_basic_api/internal/router"
+	"github.com/yijieyu/go_basic_api/pkg/services/http"
+	"github.com/yijieyu/go_basic_api/pkg/signals"
 )
 
 var (

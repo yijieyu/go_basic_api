@@ -3,7 +3,7 @@ package service
 import (
 	"github.com/go-playground/form"
 	"github.com/sirupsen/logrus"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/internal/model"
+	"github.com/yijieyu/go_basic_api/internal/model"
 )
 
 type Ad struct {

@@ -2,7 +2,7 @@ package group
 
 import (
 	"github.com/gin-gonic/gin"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/app"
+	"github.com/yijieyu/go_basic_api/app"
 )
 
 type RoutePlugin func(app *app.App, g *gin.RouterGroup, mw ...gin.HandlerFunc) error

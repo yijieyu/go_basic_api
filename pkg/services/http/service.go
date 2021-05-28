@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/configuration"
+	"github.com/yijieyu/go_basic_api/pkg/configuration"
 )
 
 var httpServer *http.Server

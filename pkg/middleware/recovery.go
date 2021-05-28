@@ -10,7 +10,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/constant"
+	"github.com/yijieyu/go_basic_api/pkg/constant"
 )
 
 const k = 1 << 10

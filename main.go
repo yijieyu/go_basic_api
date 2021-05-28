@@ -2,7 +2,7 @@
 package main
 
 import (
-	"gitlab.weimiaocaishang.com/weimiao/base_api/cmd"
+	"github.com/yijieyu/go_basic_api/cmd"
 )
 
 func main() {

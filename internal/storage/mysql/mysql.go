@@ -1,7 +1,7 @@
 package mysql
 
 import (
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/db/mysql"
+	"github.com/yijieyu/go_basic_api/pkg/db/mysql"
 )
 
 type Storage struct {

@@ -3,7 +3,7 @@ package middleware
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/rs/xid"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/constant"
+	"github.com/yijieyu/go_basic_api/pkg/constant"
 )
 
 // RequestID 透传Request-ID，如果没有则生成一个

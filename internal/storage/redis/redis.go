@@ -1,7 +1,7 @@
 package redis
 
 import (
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/db/redis"
+	"github.com/yijieyu/go_basic_api/pkg/db/redis"
 )
 
 type Storage struct {

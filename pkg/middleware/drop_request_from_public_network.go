@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 	"github.com/thinkeridea/go-extend/exnet"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/constant"
+	"github.com/yijieyu/go_basic_api/pkg/constant"
 )
 
 // DropRequestFromPublicNetwork drops all request from public network, status code 403

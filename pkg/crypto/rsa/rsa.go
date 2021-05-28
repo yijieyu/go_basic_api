@@ -7,7 +7,7 @@ import (
 	"encoding/pem"
 	"errors"
 
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/crypto"
+	"github.com/yijieyu/go_basic_api/pkg/crypto"
 )
 
 type Rsa struct {

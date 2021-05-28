@@ -2,8 +2,8 @@ package app
 
 import (
 	"github.com/gin-gonic/gin"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/debug"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/reload"
+	"github.com/yijieyu/go_basic_api/pkg/debug"
+	"github.com/yijieyu/go_basic_api/pkg/reload"
 )
 
 type Assist struct {

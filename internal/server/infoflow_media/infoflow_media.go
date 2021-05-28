@@ -5,8 +5,8 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/internal/model/weimiao"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/internal/service"
+	"github.com/yijieyu/go_basic_api/internal/model/weimiao"
+	"github.com/yijieyu/go_basic_api/internal/service"
 )
 
 type InfoflowMedia struct {

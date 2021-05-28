@@ -11,8 +11,8 @@ import (
 	"github.com/thinkeridea/go-extend/exbytes"
 	"github.com/thinkeridea/go-extend/exstrings"
 
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/constant"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/logger"
+	"github.com/yijieyu/go_basic_api/pkg/constant"
+	"github.com/yijieyu/go_basic_api/pkg/logger"
 )
 
 type bodyLogWriter struct {

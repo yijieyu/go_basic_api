@@ -6,10 +6,10 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 	"github.com/thinkeridea/go-extend/helper"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/internal/model"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/provider/apollo"
+	"github.com/yijieyu/go_basic_api/internal/model"
+	"github.com/yijieyu/go_basic_api/pkg/provider/apollo"
 
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/configuration"
+	"github.com/yijieyu/go_basic_api/pkg/configuration"
 )
 
 const (

@@ -1,6 +1,6 @@
 package apperr
 
-import "gitlab.weimiaocaishang.com/weimiao/base_api/pkg/errno"
+import "github.com/yijieyu/go_basic_api/pkg/errno"
 
 // 1000～2000 权限错误码
 var (

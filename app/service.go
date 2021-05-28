@@ -1,6 +1,6 @@
 package app
 
-import "gitlab.weimiaocaishang.com/weimiao/base_api/internal/service"
+import "github.com/yijieyu/go_basic_api/internal/service"
 
 type Service struct {
 	ad            *service.Ad

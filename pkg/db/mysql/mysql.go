@@ -10,7 +10,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/jmoiron/sqlx/reflectx"
 	"github.com/thinkeridea/go-extend/helper"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/configuration"
+	"github.com/yijieyu/go_basic_api/pkg/configuration"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

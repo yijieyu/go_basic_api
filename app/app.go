@@ -4,10 +4,10 @@ import (
 	"sync"
 
 	"github.com/thinkeridea/go-extend/helper"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/constant"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/errno"
+	"github.com/yijieyu/go_basic_api/pkg/constant"
+	"github.com/yijieyu/go_basic_api/pkg/errno"
 
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/logger"
+	"github.com/yijieyu/go_basic_api/pkg/logger"
 )
 
 type App struct {

@@ -2,7 +2,7 @@ package elasticsearch
 
 import (
 	"github.com/thinkeridea/go-extend/pool"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/db/elasticsearch"
+	"github.com/yijieyu/go_basic_api/pkg/db/elasticsearch"
 )
 
 type Storage struct {

@@ -12,9 +12,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/constant"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/crypto"
-	aesAndBase64 "gitlab.weimiaocaishang.com/weimiao/base_api/pkg/crypto/aes_and_base64"
+	"github.com/yijieyu/go_basic_api/pkg/constant"
+	"github.com/yijieyu/go_basic_api/pkg/crypto"
+	aesAndBase64 "github.com/yijieyu/go_basic_api/pkg/crypto/aes_and_base64"
 )
 
 func Crypto(aes *aesAndBase64.AesAndBase64, rsa crypto.Decrypt, force bool) gin.HandlerFunc {

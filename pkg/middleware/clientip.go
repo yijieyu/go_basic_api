@@ -3,7 +3,7 @@ package middleware
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/thinkeridea/go-extend/exnet"
-	"gitlab.weimiaocaishang.com/weimiao/base_api/pkg/constant"
+	"github.com/yijieyu/go_basic_api/pkg/constant"
 )
 
 func ClientIP(c *gin.Context) {
