@@ -13,6 +13,7 @@ sql/
 test/
 binary/
 bin/
+go_basic_api
 
 # Architecture specific extensions/prefixes
 *.[568vq]
